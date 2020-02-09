@@ -1489,7 +1489,7 @@ if ( typeof define === 'function' && define.amd ) {
                 }
                     // facebook better home timeline performance
                     // all the HTML resized images make rendering CPU intensive
-                else if (document.URL.indexOf("www.facebook.com") > -1)
+                else if (document.URL.indexOf("https://www.facebook.com") > -1)
                 {
                     var home_stream = document.getElementById("home_stream");
                     home_stream && (home_stream.style.webkitTransform = "translateZ(0)");
