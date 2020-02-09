@@ -9,7 +9,7 @@
     <meta name="keywords" content="HTML5 Template" />
     <meta name="description" content="Vertex - Responsive HTML5 Template">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="shortcut icon" type="image/png" href="img/favicon.png" />
+    <link rel="shortcut icon" type="image/png" href="#" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Web Fonts  -->
@@ -50,10 +50,10 @@
         <div class="header-body no-shadow">
             <div class="header-container container">
                 <div class="header-row">
-                    <div class="header-column justify-content-start">
-                        <div class="header-logo">
+                    <div class="header-column justify-content-start" >
+                        <div class="header-logo" >
                             <a href="index-2.html">
-                                <img alt="Eustacia" width="140" height="35" src="img/logo.png">
+                                <img alt="Eustacia" width="140" height="35" src="img/logo.png" style='float:left'>
                             </a>
                         </div>
                     </div>
@@ -308,9 +308,9 @@
                                                     High-energetic Team with immense knowledge in Web Design ,Always Ready to support in case of issues. Very Friendly and Good at listening
 													to the Requirement and providing solutions to complex Problems . A Happy Customer !!!
                                                 </div>
-                                                <img src="img/team/t1.png" width="60" class="pi-img-round pb-3" />
+                                                <img src="img/team/c3.png" width="60" class="pi-img-round pb-3" />
                                                 <div class="person-says mb-2">
-                                                    <strong>Arul Edward,</strong>
+                                                    <strong>Sathish S,</strong>
                                                     <span class="text-small pb-2"> Client </span>
                                                 </div>
                                             </div>
@@ -320,7 +320,7 @@
                                                     <div class="testimonials-content">
                                                         Putting together a website is a task, finding the right individual or company is even more complex. I did my search around looking for this particular company that has the ability to create, design and optimized my web site. Thanks God I meet Guys at Eustacia, not only they have great taste in design but they can guide you through the process and beyond.
                                                     </div>
-                                                    <img src="img/team/t4.png" width="60" class="pi-img-round pb-3" />
+                                                    <img src="img/team/c2.png" width="60" class="pi-img-round pb-3" />
                                                     <div class="person-says mb-2">
                                                         <strong>Sethil Kumar,</strong>
                                                         <span class="text-small pb-2">Client</span>
@@ -333,7 +333,7 @@
                                                     <div class="testimonials-content">
                                                        Great design team and quick turn around on all projects and request. With their help we have improved our google search results. Their web design team is very knowledgeable and they always let us know when a new Google update is coming up before anyone even knows.  If you want a reliable Miami Web Design Company all them! I recommend 100%
                                                     </div>
-                                                    <img src="img/team/t3.png" width="60" class="pi-img-round pb-3" />
+                                                    <img src="img/team/c1.png" width="60" class="pi-img-round pb-3" />
                                                     <div class="person-says mb-2">
                                                         <strong>NeelaKandan ,</strong>
                                                         <span class="text-small pb-2">Client</span>
@@ -550,7 +550,7 @@
                             </p>
 
                             <a class="btn v-btn standard transparent-light mt-4 mb-2" href="page-services-2.html" target="_self">
-                                <span class="text"><i class="icon-arrow-right-2"></i> More About Us</span>
+                                <i class="icon-arrow-right-2"></i><span>More About Us</span>
                             </a>
                         </div>
                     </div>
@@ -567,7 +567,8 @@
                             <section class="widget">
                                 <img alt="Vertex" src="img/logo.png" style="height: 40px; margin-bottom: 20px;">
                                 <p class="pull-bottom-small">
-                                    We are a Coimbatore based company developing software for clients from all over the world. We believe that a good software house should be based on trust, experience and creativity. Focus on the brotherly approach to cooperation – that’s the way we do it.
+                                    We are a Coimbatore based company developing software for clients from all over the world. We believe that a 
+									software house should be based on trust, experience and creativity. Focus on the brotherly approach to cooperation – that’s the way we do it.
                                 </p>
                                 <p>
                                     <a href="page-about-us-2.html">Read More →</a>
@@ -655,45 +656,163 @@
                                 <div class="widget-heading">
                                     <h4>Recent Works</h4>
                                     <div class="horizontal-break"></div>
-                                </div>
-                                <ul class="portfolio-grid">
-                                    <li>
-                                        <a href="https://codissia.com/" class="grid-img-wrap">
-                                            <img src="img/thumbs/project-1.jpg" />
-                                            
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.coindia.in/" class="grid-img-wrap">
-                                            <img src="img/thumbs/project-2.png" />
-                                            
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.sitarc.com/" class="grid-img-wrap">
-                                            <img src="img/thumbs/project-3.jpg" />
-                                            
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.siegerglobal.net/" class="grid-img-wrap">
-                                            <img src="img/thumbs/project-4.png" />
-                                            
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="https://wwww.bestpumpsindia.com" class="grid-img-wrap">
-                                            <img src="img/thumbs/project-5.jpg" />
-                                            
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="http://www.rvmachinetools.in/" class="grid-img-wrap">
-                                            <img src="img/thumbs/project-6.gif" />
-                                            
-                                        </a>
-                                    </li>
-                                </ul>
+									
+<style>
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+<!-- .active { -->
+  <!-- background-color: #717171; -->
+<!-- } -->
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+ <!-- <ul class="carousel-indicators"> -->
+    <!-- <li data-target="#demo" data-slide-to="0" class="active"></li> -->
+    <!-- <li data-target="#demo" data-slide-to="1"></li> -->
+    <!-- <li data-target="#demo" data-slide-to="2"></li> -->
+    <!-- <li data-target="#demo" data-slide-to="3"></li> -->
+    <!-- <li data-target="#demo" data-slide-to="4"></li> -->
+	<!-- <li data-target="#demo" data-slide-to="5"></li> -->
+	<!-- </ul> -->
+  
+  
+<div class="mySlides fade">
+  <a href="https://codissia.com/" class="grid-img-wrap">
+  <img src="img/thumbs/project-1.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <a href="http://www.coindia.in/" class="grid-img-wrap">
+  <img src="img/thumbs/project-2.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <a href="http://www.sitarc.com/" class="grid-img-wrap"> 
+  <img src="img/thumbs/project-3.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <a href="http://www.sitarc.com/" class="grid-img-wrap">
+  <img src="img/thumbs/project-4.png" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <a href="https://wwww.bestpumpsindia.com" class="grid-img-wrap">
+  <img src="img/thumbs/project-5.jpg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <a href="http://www.rvmachinetools.in/" class="grid-img-wrap">
+  <img src="img/thumbs/project-6.gif" style="width:100%">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div> 
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+                               
+					
+								
+                                
                             </section>
                         </div>
                     </div>
